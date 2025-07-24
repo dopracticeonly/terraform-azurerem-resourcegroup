@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name     = "testResourceGroup1"
-  location = "West"
+  location = "West US"
 
   tags = {
     environment = "Production"
